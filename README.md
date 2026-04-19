@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<a id="readme-top"></a>
 
+<!-- PROJECT HEADER -->
+<div align="center">
+  <img src="public/sequence/ezgif-frame-120.jpg" alt="Logo" width="180" height="180" style="border-radius: 10px;">
+
+  <h3 align="center">Antigravity Nutrition landing page</h3>
+
+  <p align="center">
+    A breathtaking, high-performance web experience for luxury nutrition.
+    <br />
+    <strong><a href="https://github.com/your-username/your-repo">Explore the docs »</a></strong>
+    <br />
+    <br />
+    <a href="https://precious-manatee-43a1c2.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/your-username/your-repo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/your-username/your-repo/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- BADGES -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-black?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Framer_Motion-white?style=for-the-badge&logo=framer" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
+</div>
+
+<br />
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+This is a premium, single-page Next.js web application designed for an artisan nutrition brand. The core philosophy centers around an **"Antigravity"** aesthetic—showcasing physics-defying 3D assets mapped smoothly to user scrolling. 
+
+It was built utilizing a highly optimized `<canvas>` sequence and `framer-motion` to create an Apple-style scrolling animation where the user's scroll directly drives the passage of time.
+
+### 🎨 Asset Showcase
+
+All high-fidelity floating assets were rendered natively onto a true `#000000` background. By taking advantage of CSS screen blending, they behave identically to transparent PNGs while running lighter.
+
+<div align="left">
+  <img src="public/assets/raspberry.png" width="120" alt="Raspberry" style="border-radius: 8px; margin-right: 15px;" />
+  <img src="public/assets/blueberry.png" width="120" alt="Blueberry" style="border-radius: 8px; margin-right: 15px;" />
+  <img src="public/assets/oat.png" width="120" alt="Toasted Oat" style="border-radius: 8px; margin-right: 15px;" />
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You will need the latest LTS version of Node.js installed.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
+   ```
+2. Navigate into the frontend folder
+   ```sh
+   cd frontend
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Start the Development Server
+   ```sh
+   npm run dev
+   ```
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- DEPLOYMENT -->
+## Netlify Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This repository is pre-configured with a `netlify.toml` file to ensure **Zero-Config Deployment** on Netlify. 
 
-## Deploy on Vercel
+1. Push this repository to GitHub.
+2. Sign in to your [Netlify Dashboard](https://app.netlify.com).
+3. Click `Add new site` > `Import an existing project`.
+4. Connect to GitHub and select this repository.
+5. Hit **Deploy Site**. Netlify will automatically detect Next.js App Router and deploy your site securely in under 2 minutes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
