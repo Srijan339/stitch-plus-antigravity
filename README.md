@@ -9,14 +9,14 @@
   <p align="center">
     A breathtaking, high-performance web experience for luxury nutrition.
     <br />
-    <strong><a href="https://github.com/your-username/your-repo">Explore the docs »</a></strong>
+    <strong><a href="https://github.com/Srijan339/stitch-plus-antigravity">Explore the docs »</a></strong>
     <br />
     <br />
-    <a href="https://precious-manatee-43a1c2.netlify.app/">View Demo</a>
+    <a href="https://framer-animation-bowl.netlify.app/">View Live Demo</a>
     ·
-    <a href="https://github.com/your-username/your-repo/issues">Report Bug</a>
+    <a href="https://github.com/Srijan339/stitch-plus-antigravity/issues">Report Bug</a>
     ·
-    <a href="https://github.com/your-username/your-repo/issues">Request Feature</a>
+    <a href="https://github.com/Srijan339/stitch-plus-antigravity/issues">Request Feature</a>
   </p>
 </div>
 
@@ -68,7 +68,7 @@ You will need the latest LTS version of Node.js installed.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Srijan339/stitch-plus-antigravity.git
    ```
 2. Navigate into the frontend folder
    ```sh
